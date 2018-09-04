@@ -1,0 +1,7 @@
+﻿  Process.h
+  Process.cpp
+c:\users\remdu\documents\github\windows-.dll-injection\injector\process.cpp(36): error C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(554): note: see declaration of 'stricmp'
+  Injector.cpp
+  CreateRemoteThreadInjection.cpp
+  Generating Code...

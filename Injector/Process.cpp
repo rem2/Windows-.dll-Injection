@@ -33,7 +33,7 @@ int Process::GetProcessIDByName(std::string processName) {
 	if (Process32First(processSnapshot, &entry) == TRUE) {
 		while (Process32Next(processSnapshot, &entry) == TRUE) {
 			// Found our process
-			if (stricmp(entry.szExeFile, processName.c_str()) == 0) {
+			if (_stricmp(entry.szExeFile, processName.c_str()) == 0) {
 				return entry.th32ProcessID;
 			}
 		}

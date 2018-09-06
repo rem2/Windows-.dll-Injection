@@ -113,11 +113,13 @@
   <ItemGroup>
     <ClCompile Include="CreateRemoteThreadInjection.cpp" />
     <ClCompile Include="Injector.cpp" />
+    <ClCompile Include="ManualMapInjection.cpp" />
     <ClCompile Include="Process.cpp" />
     <ClCompile Include="Process.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CreateRemoteThreadInjection.h" />
+    <ClInclude Include="ManualMapInjection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

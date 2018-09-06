@@ -27,9 +27,15 @@
     <ClCompile Include="CreateRemoteThreadInjection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ManualMapInjection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CreateRemoteThreadInjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualMapInjection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

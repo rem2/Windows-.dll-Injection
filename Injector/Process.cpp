@@ -44,5 +44,6 @@ int Process::GetProcessIDByName(std::string processName) {
 }
 
 void Process::SetHandleAllAccess() {
+	// Open a handle to our process with 0xFFFF access level
 	processHandle = OpenProcess(PROCESS_ALL_ACCESS, false, processID);
 }

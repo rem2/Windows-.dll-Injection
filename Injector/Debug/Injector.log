@@ -1,7 +1,6 @@
-﻿  Process.h
-  Process.cpp
-c:\users\remdu\documents\github\windows-.dll-injection\injector\process.cpp(36): error C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(554): note: see declaration of 'stricmp'
-  Injector.cpp
-  CreateRemoteThreadInjection.cpp
-  Generating Code...
+﻿  Injector.cpp
+Debug\Process.obj : warning LNK4042: object specified more than once; extras ignored
+Injector.obj : error LNK2019: unresolved external symbol "public: __thiscall Process::Process(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Process@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+Injector.obj : error LNK2019: unresolved external symbol "public: void * __thiscall Process::GetProcessHandle(void)" (?GetProcessHandle@Process@@QAEPAXXZ) referenced in function _main
+Injector.obj : error LNK2019: unresolved external symbol "public: static void __cdecl CreateRemoteThreadInjection::Inject(void *,char *)" (?Inject@CreateRemoteThreadInjection@@SAXPAXPAD@Z) referenced in function _main
+C:\Users\remdu\Documents\GitHub\Windows-.dll-Injection\Injector\Debug\Injector.exe : fatal error LNK1120: 3 unresolved externals

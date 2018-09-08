@@ -1,7 +1,7 @@
 #pragma once
-#include <Windows.h>
+#include "stdafx.h"
 
 class CreateRemoteThreadInjection {
-public: 
+public:
 	static void Inject(HANDLE pHandle, char* buffer);
 };

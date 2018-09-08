@@ -1,6 +1,5 @@
-#include <Windows.h>
-#include <string>
-#include <tlhelp32.h>
+#pragma once
+
 class Process {
 public:
 	Process(std::string processName);

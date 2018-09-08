@@ -1,7 +1,8 @@
-﻿  Process.h
+﻿  stdafx.cpp
   Process.cpp
+  PEInjection.cpp
+  main.cpp
+  CreateRemoteThreadInjection.cpp
   Generating Code...
-Debug\Process.obj : warning LNK4042: object specified more than once; extras ignored
-Injector.obj : error LNK2019: unresolved external symbol "public: __thiscall Process::Process(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Process@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
-Injector.obj : error LNK2019: unresolved external symbol "public: void * __thiscall Process::GetProcessHandle(void)" (?GetProcessHandle@Process@@QAEPAXXZ) referenced in function _main
-C:\Users\remdu\Documents\GitHub\Windows-.dll-Injection\Injector\Debug\Injector.exe : fatal error LNK1120: 2 unresolved externals
+  Injector.vcxproj -> C:\Users\remdu\Documents\GitHub\Windows-.dll-Injection\Injector\Debug\Injector.exe
+  Injector.vcxproj -> C:\Users\remdu\Documents\GitHub\Windows-.dll-Injection\Injector\Debug\Injector.pdb (Partial PDB)

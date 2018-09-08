@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "CreateRemoteThreadInjection.h"
 
 void CreateRemoteThreadInjection::Inject(HANDLE pHandle, char* buffer) {

@@ -1,4 +1,6 @@
-#include "Process.h"
+#include "stdafx.h"
+#include "process.h"
+
 
 Process::Process(std::string processName) {
 	// Get the processID with the provided name
@@ -38,7 +40,7 @@ int Process::GetProcessIDByName(std::string processName) {
 			}
 		}
 	}
-	
+
 	// Didn't find our process :(
 	return -1;
 }

@@ -3,7 +3,7 @@
 
 class PEInjection {
 public:
-	static void Inject(HANDLE processHandle, char* messageBoxContents, char* messageBoxTitle);
+	static void Inject(HANDLE processHandle, char* messageBoxContents);
 private:
 	struct injectableData
 	{

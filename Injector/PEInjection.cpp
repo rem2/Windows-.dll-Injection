@@ -6,11 +6,12 @@ DWORD PEInjection::InjectableThread(injectableData * iData) {
 	return 0;
 }
 
-void PEInjection::Inject(HANDLE processHandle, char* messageBoxContents, char* messageBoxTitle) {
+void PEInjection::Inject(HANDLE processHandle, char* messageBoxContents) {
 
+	// Setup
 	injectableData iData;
 	iData.messageBoxContents = messageBoxContents;
-	iData.messageBoxTitle = messageBoxTitle;
+	iData.messageBoxTitle = "hello!";
 
 	HINSTANCE userDLL = LoadLibrary("user32.dll");
 	iData.injectableThreadAddress = (DWORD)GetProcAddress(userDLL, "MessageBoxA");

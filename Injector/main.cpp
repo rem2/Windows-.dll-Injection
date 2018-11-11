@@ -15,10 +15,10 @@ int main(int argc, char** argv) {
 	Process p(argv[1]);
 	HANDLE pHandle = p.GetProcessHandle();
 
-	if (pHandle != NULL && argv[2] == "c") {
+	if (pHandle != NULL && argv[2] == 'c') {
 		CreateRemoteThreadInjection::Inject(pHandle, argv[3]);
 	}
-	if (pHandle != NULL && argv[2] == "p") {
+	if (pHandle != NULL && argv[2] == 'p') {
 		PEInjection::Inject(pHandle, argv[3]);
 	}
 	else {
